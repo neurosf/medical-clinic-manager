@@ -1,0 +1,575 @@
+
+.Patientsfunc{
+    display: flex;
+    justify-content: space-between;
+}
+.MenuPatientfnc {
+    display: none;
+    position: absolute;
+    right: 2px;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 0.5%;
+    background: var(---Theard);
+    box-shadow: 0px 1px 2px 4px rgba(0, 0, 0, 0.06);
+}
+.InfoLable {
+    color: #324659;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1%;
+    text-decoration: none;
+}
+.InfoP {
+    margin: 1%;
+    font-size: larger;
+    width: max-content;
+    color: #fff;
+}
+.InfoPer {
+    margin: 1%;
+    font-size: larger;
+    width: max-content;
+}
+.ProfileImg{
+    height: 200px;
+    width: 200px;
+    margin: 3%;
+    position: absolute;
+    border: solid #041c33 2px;
+    border-radius: 50%;
+    top: -20px;
+    left: -20px;
+}
+.PatientIn{
+    background: var(---Theard);
+    border-radius: 15px;
+}
+.PatientInfo {
+    background: white;
+    border-radius: 10px;
+}
+.DosierTitle {
+    color: #484b4e;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: monospace;
+    margin: 1%;
+    padding: 1%;
+}
+.PersonelInfo {
+    position: relative;
+    background: #65c2a27a;
+    min-height: 300px;
+    justify-content: flex-end;
+    border-radius: 104px 0px;
+}
+.IntpresonelInfo{
+    display: flex;
+    justify-content: end;
+}
+.PerInfo {
+    display: flex;
+    width: 70%;
+}
+.PerInfo div{
+    width: -webkit-fill-available;
+}
+/***/
+.ContainMoreInfo{
+    margin: 2%;
+    padding: 1%;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.AntHab {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0 0 104px 0;
+}
+.AntHab #Antecedent{
+    width: 70%;
+}
+.AntHab #Habitude{
+    width: 28%;
+}
+.AntHab section {
+    padding: 1%;
+    margin-bottom: 70px;
+}
+.AntContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 20rem));
+    grid-gap: 0rem 0.5rem;
+    width: 100%;
+    justify-content: center;
+    max-height: 400px;
+    overflow: auto;
+}
+/* Antecedent */
+.AntecedentIn {
+    padding: 1%;
+    border-left: solid 2px #2a4e6e;
+    background: aliceblue;
+    margin-bottom: 20px;
+}
+span.NomAntecedent {
+    font-size: 22px;
+    font-family: inherit;
+    font-weight: 600;
+    color: #3a3d46;
+}
+
+.ImportanceAntencedent{
+    color: #324659;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1%;
+    text-decoration: none;
+}
+.CmntAntecedent{
+    font-size: 17px;
+    color: #3b3630;
+    font-family: monospace;
+}
+/* R A P*/
+.ContainerRAP{
+    overflow: auto;
+    background: #ffffff45;
+}
+.ContainerRAP section{
+    display: flex;
+    width: 1400px;
+}
+    /* rendezvous */
+div#RendezVous {
+    width: 280px;
+    background: #eff2fa;
+    border: solid 2px;
+}
+div#RendezVous section{
+    display: block;
+    overflow: scroll;
+    max-height: 350px;
+}
+div#RendezVous section .DateRenv {
+    font-family: monospace;
+    font-weight: 600;
+    color: #444848;
+    margin: 0.25rem;
+    border-bottom: solid #98b7d2;
+}
+    /* Alarms */
+div#Alarms {
+    background: #eff2fa;
+    border: solid 2px;
+}
+.AlarmContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 23rem));
+    grid-gap: 2rem 1.5rem;
+    width: 100%;
+    justify-content: center;
+    padding: 1%;
+    max-height: 350px;
+    width: 280px;
+    overflow: scroll;
+}
+.AlarmIn {
+    padding: 1%;
+    color: #051d35;
+    border-left: solid 2px #2a4e6e;
+    background: #ffffff3d;
+    margin-bottom: 20px;
+}
+span.NomAlarm {
+    font-size: 22px;
+    font-family: inherit;
+    font-weight: 600;
+    color: #3a3d46;
+}
+    /* Paiement */
+div#Paiement {
+    background: #eff2fa;
+    border: solid 2px;
+}
+div#Paiement section{
+    display: block;
+    overflow: scroll;
+    max-height: 350px;
+    width: 550px;
+}
+/* consultation cart Suivi */
+.ContainerCS{
+    background: #fff;
+    padding: 1%;
+}
+.TextCons ,.NomSuivi {
+    color: #4b5c6b;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1%;
+    text-decoration: none;
+}
+.ConsultationIn,.SuiviIn{
+    background-color: aliceblue;
+    border-left: solid 2px #2a4e6e;
+    color: #252525;
+    padding: 1rem;
+    font-size: 1.6rem;
+    margin: auto;
+    text-align: start;
+    max-width: 350px;
+    min-height: 250px;
+}
+.SuiviIn{
+    max-width: 350px;
+    min-height: 200px;
+}
+.ConsultationMotif,.TypeSuivi{
+    font-size: 21px;
+    font-family: inherit;
+    font-weight: 600;
+    color: #3a3d46;
+}
+.CmntCons,.CmntSuivi {
+    font-size: 17px;
+    color: #3b3630;
+    font-family: monospace;
+}
+.ImportanceCons,.ImportanceSuivi {
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: 600;
+    color: white;
+    background: #65c2a2;
+    padding: 3%;
+    border-radius: 20px 0;
+}
+
+.MedicamentName{
+    color: #041d34;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 1%;
+    margin-left: 2rem;
+}
+.Medicamentdisc{
+    color: #6a9ecf;
+    font-size: 16px;
+    font-family: system-ui;
+    font-weight: 600;
+    padding: 1%;
+}
+/* //////////// consultation */
+.consultationInfo{
+    position: relative;
+    background: #65c2a27a;
+    min-height: 300px;
+    justify-content: flex-end;
+    border-radius: 104px 0px;
+    padding: 3%;
+    padding-left: 8%;
+}
+.Consultaion_Patinet{
+    color: #041d34;
+    font-size: larger;
+    font-family: monospace;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 2%;
+    width: -webkit-fill-available;
+}
+.ConsInfo{
+    display: flex;
+    justify-content: center;
+}
+.ConsInfo div{
+    width: -webkit-fill-available;
+}
+.InfoPDr{
+    margin: 1%;
+    font-size: larger;
+    width: max-content;
+    color: #464040;
+}
+.flexFactur{
+    display: flex;
+    justify-content: space-between;
+}
+.inbutgFactur{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/* Examen */
+.ExamenCons{
+    background: #ffffff;
+    color: #232b35;
+    border-radius: 10px;
+    border: solid 2px;
+    padding: 1%;
+    padding-left: 2%;
+    max-width: 400px;
+    text-align: start;
+    margin: auto;
+}
+span.TirteConstExamen{
+    font-size: 27px;
+}
+.LabelExamenCons{
+    color: #092579;
+    font-size: medium;
+    font-family: system-ui;
+    font-weight: 600;
+    padding: 1%;
+}
+.InfoExamenCons{
+    color: #384b4d;
+    font-size: large;
+    font-family: monospace;
+    font-weight: 500;
+    padding: 1%;
+}
+.ImportanceExamen{
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: 600;
+    color: white;
+    background: #3d84d0c9;
+    padding: 2%;
+    border-radius: 20px 0;
+}
+.RappelList{
+    display: grid;
+    height: 120px;
+    overflow: auto;
+}
+.RappelEx{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 600;
+    color: #444848;
+    margin: 0.25rem;
+    border-bottom: solid #98b7d2;
+    width: 200px;
+    height: 30px;
+}
+.OccureceEx{
+    color: #324659;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1%;
+    text-decoration: none;
+}
+.ExamenBR {
+    width: 320px;
+    margin-bottom: 20px;
+}
+.TitelInfoP{
+    display: flex;
+    justify-content: space-between;
+}
+.TitelInfoP label {
+    width: 80%;
+    text-align: center;
+}
+/* photos */
+seciton.PhotosPatient {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 300px));
+    grid-gap: 1rem 1.5rem;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 1%;
+}
+seciton.PhotosPatient .ImgIn{
+    padding: 1%;
+    border: solid #bccfe0;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    box-shadow: 0px 0px 10px 0px #adc7c7;
+}
+seciton.PhotosPatient img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+    transform: scale(1);
+    transition: transform 0.3s ease; 
+  }
+  seciton.PhotosPatient img:hover {
+    transform: scale(1.1);
+  }
+  seciton.PhotosPatient .buttons{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    margin: 1%;
+  }
+  .imgdate{
+    font-size: revert;
+    font-family: math;
+    font-weight: 600;
+  }
+/* Page Rendez Vous Salle d'attent */
+.TextTopRendeVDate{
+    font-size: large;
+    font-weight: 600;
+    text-shadow: -1px 2px white;
+    letter-spacing: 1px;
+    margin: 3%;
+}
+.containerRendVusinput{
+    display: block;
+    text-align: center;
+}
+.btnrefresh{
+    height: 50px;
+    width: 60px;
+}
+.gridContainerSall {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 210px));
+    grid-gap: 0.5rem 2rem;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 1%;
+}
+.cardSall {
+--font-color: #323232;
+--font-color-sub: #666;
+--bg-color: #fff;
+--main-color: #323232;
+--main-focus: #2d8cf0;
+width: 200px;
+height: 175px;
+background: var(--bg-color);
+border: 2px solid var(--main-color);
+box-shadow: 4px 4px var(--main-color);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding: 10px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cardSall-title {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--font-color);
+}
+.cardSall-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--font-color-sub);
+}
+.cardSall-divider {
+    width: 100%;
+    border: 1px solid var(--main-color);
+    border-radius: 50px;
+    padding-left: 20%;
+}
+.cardSall-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardSall-price {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--font-color);
+}
+.cardSall-price span {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--font-color-sub);
+}
+.cardSall-img {
+    text-align: center;
+}
+.cardSall-img img{
+    width: 70px;
+}
+/* /////////////////////////  */
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 34rem));
+    grid-gap: 1rem 1.5rem;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 1%;
+}
+.contAntIn{
+    display: flex;
+    justify-content: space-between;
+}
+.nomPathAnt{
+    color: #62a289;
+}
+span.DateAnt,.DateAlarm {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.33;
+    font-family: monospace;
+    width: 100%;
+    text-align: end;
+    padding-top: 5%;
+}
+.Datecons {
+    font-weight: 600;
+    line-height: 1.33;
+    font-family: monospace;
+    width: 100%;
+    text-align: end;
+}
+#selectPAthoogie,#selectPAthoogieMotif,#selectPAthoogieDiagnostique,#selectMedicament ,#selectRadio,#selectvar,#selectExamenVac{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 14;
+    background: white;
+    width: 216px;
+    max-height: 300px;
+    border-radius: 2px;
+    padding: 1%;
+    box-shadow: 3px 8px 6px rgb(78 86 94 / 39%);
+    overflow-y: scroll;
+}
+.FilterInput {
+--input-focus: #2d8cf0;
+--font-color: #323232;
+--font-color-sub: #666;
+--bg-color: #fff;
+--main-color: #323232;
+width: 200px;
+height: 40px;
+border-radius: 5px;
+border: 2px solid var(--main-color);
+background-color: var(--bg-color);
+box-shadow: 4px 4px var(--main-color);
+font-size: 15px;
+font-weight: 600;
+color: var(--font-color);
+padding: 5px 10px;
+outline: none;
+}
+.FilterInput::placeholder {
+color: var(--font-color-sub);
+opacity: 0.8;
+}
+.FilterInput:focus {
+border: 2px solid var(--input-focus);
+}
+/* ////////////////////// */

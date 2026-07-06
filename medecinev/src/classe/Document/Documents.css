@@ -1,0 +1,98 @@
+.Documents{
+  background: white;
+  min-height: 100vh;
+  background-image: url('../../PIC/125929.jpg');
+  background-size: cover;
+}
+.medical-certificate-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.medical-certificate {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 10px;
+}
+/* ordonace */
+.Ordonnance{
+  color: #272746;
+  max-width: 700px;
+}
+.Ordonnance p {
+  margin: 0pt;
+}
+.Ordonnance ul {
+  list-style: circle;
+}
+.Ordonnance .name {
+  font-family: Calibri;
+  font-size: 17pt;
+}
+.Ordonnance .nameAR {
+  font-family: Calibri;
+  font-size: 20pt;
+}
+.Ordonnance .small-name {
+  font-family: Calibri;
+  font-size: 14pt;
+}
+.Ordonnance .large-name {
+  font-family: Calibri;
+  font-size: 36pt;
+}
+.Ordonnance .separator {
+  font-family: Calibri;
+  font-size: 14pt;
+}
+.Ordonnance .contact {
+  font-family: Calibri;
+  font-size: 14pt;
+}
+.Ordonnance .ord-title {
+  font-family: Calibri;
+  font-size: 36pt;
+}
+.Ordonnance .containeror{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.Ordonnance .TitleOr{
+  text-align: center;
+}
+.Ordonnance .Cordonne{
+  display: flex;
+  justify-content: space-around;
+  font-size: 19px;
+  font-family: monospace;
+}
+.Ordonnance .Cordonne div{
+  margin: 1%;
+}
+.Ordonnance .Cordonne span{
+  font-weight: 600;
+  padding: 3%;
+}
+.Ordonnance .Traitement{
+  margin: auto;
+  margin-left: 10%;
+  font-size: 20px;
+  font-family: system-ui;
+}
+.Ordonnance .Traitement li{
+  margin-bottom: 20px;
+}
+.Ordonnance .datetoday{
+  font-size: 19px;
+  font-family: monospace;
+  font-weight: 600;
+  text-align: end;
+  margin: 1%;
+}

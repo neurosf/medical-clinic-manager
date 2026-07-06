@@ -1,0 +1,13 @@
+body {
+  color: #041d34;
+  letter-spacing: -.03em;
+  background-color: #f5f8fa;
+  font-family: Averta Std, sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

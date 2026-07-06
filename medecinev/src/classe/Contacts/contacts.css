@@ -1,0 +1,136 @@
+.Contacts{
+  width: 100%;
+  min-height: 100vh;
+  float: right;
+  background: white;
+}
+.gridContainerContacts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 300px));
+    grid-gap: 0.5rem 2rem;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 1%;
+}
+.FilterIn {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 250px));
+  grid-gap: 0.5rem 2rem;
+  position: fixed;
+  width: 100%;
+  background: #2a4e6e;
+  left: 0;
+  padding: .5%;
+  top: 82px;
+  justify-content: center;
+  z-index: 10;
+}
+.cardContacts {
+    --font-color: #425675;
+    --font-color-sub: #7e7e7e;
+    --bg-color: #ecf0ff;
+    --main-color: #312f2f;
+    --main-focus: #2d8cf0;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}   
+  .cardContacts-title {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--font-color);
+  }
+  
+  .cardContacts-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--font-color-sub);
+  }
+  
+  .cardContacts-divider {
+    width: 100%;
+    border: 1px solid var(--main-color);
+    border-radius: 50px;
+    opacity: 1;
+  }
+  
+  .cardContacts-footer {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cardContacts-price {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding-bottom: 10px;
+  }
+  
+  .cardContacts-price span {
+    font-size: 17px;
+    font-family: inherit;
+    font-weight: 600;
+    color: var(--font-color-sub);
+  }
+  
+  .cardContacts-btn {
+    height: 35px;
+    background: var(--bg-color);
+    border: 2px solid var(--Colorbtn);
+    color: var(--Colorbtn);
+    border-radius: 5px;
+    padding: 0 15px;
+    transition: all 0.3s;
+  }
+  
+  .cardContacts-btn:hover {
+    border: 2px solid var(--bg-color);
+    color: var(--bg-color);
+    background: var(--Colorbtn);
+  }
+  
+  .cardContacts-btn:active {
+    transform: translateY(3px);
+  }
+  .containtFilter{
+    display: flex;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 2%;
+  }
+  .inputContact {
+    width: 100%;
+    max-width: 220px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2.5px solid #809afd;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    padding: 1%;
+    height: 50px;
+  }
+  
+  .inputContact:hover {
+    border: 3px solid #809afd;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .inputContact:active {
+    transform: scale(0.95);
+  }
+  
+  .inputContact:focus {
+    border: 2px solid #6986fa;
+  }
+  .btn-add-contact{
+    float: right;
+    margin: 2%;
+  }

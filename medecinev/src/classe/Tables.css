@@ -1,0 +1,79 @@
+.FontTable{
+    background: #ffffff;
+    min-height: 600px;
+    border-radius: 15px;
+    overflow: scroll;
+}
+table.table {
+    background: var(---Texthead);
+    padding: 1%;
+    border-radius: 15px;
+    min-width: 800px;
+}
+.PatientInfo table.table,form table.table{
+    min-width: unset;
+}
+.table th{
+    background: var(---font);
+    color: var(---Texthead);
+}
+.table td{
+    font-family: inherit;
+    font-weight: 600;
+    text-align: center;
+}
+.table td a{
+    float: left;
+    color: var(---icon);
+}
+.table th input,.table th select{
+    background: var(---font);
+    border: none;
+    font-weight: 600;
+    color: var(---Texthead);
+}
+.table th input::placeholder {
+    color: var(---Texthead); 
+    font-weight: 600;
+}
+.table th button{
+    background: var(---font);
+    color: var(---Texthead);
+    border: none;
+    padding: 2px;
+}
+.table th button:hover{
+    color: var(---font);
+}
+td.lineTd{
+    background: var(---second);
+    font-family: system-ui;
+    font-size: large;
+    max-width: 100px;
+}
+th.lineTd{
+    max-width: 100px;
+}
+th.endTd{
+    max-width: 50px;
+}
+td.endTd{
+    background: var(---Theard);
+    max-width: 70px;
+}
+td.endTd button{
+    background: var(---Theard);
+    border: none;
+}
+th span {
+    margin: auto;
+    display: block;
+    height: 40px;
+    text-align: center;
+}
+.thsideR{
+    border-radius: 15px 0 0;
+}
+.thsideL{
+    border-radius: 0 15px 0 0;
+}

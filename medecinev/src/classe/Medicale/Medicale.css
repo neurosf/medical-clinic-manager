@@ -1,0 +1,74 @@
+.Medicale{
+    width: 85%;
+    min-height: calc(100vh + 100px);
+    float: right;
+}
+.Medicalefunc {
+  display: flex;
+  justify-content: flex-end;
+}
+.MenuMedicale{
+    position: fixed;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    background: #2a4e6e;
+    height: 100%;
+    transition: 1s;
+    z-index: 10;
+    transition: .6s;
+    width: 75px;
+}
+.MenuMedicale div{
+    width: 100%;
+}
+.MenuMedicale div:hover{
+    background-color: #1f405d;
+}
+.LinkMedicale:hover{
+    color: white;
+}
+.MenuMedicale span{
+    display: block;
+    width: 100%;
+    animation: revealText 1s ease;
+}
+.MenuMedicale::-webkit-scrollbar {
+  width: 0; 
+  background: transparent; 
+} 
+.MenuMedicale span{
+  opacity: 0;
+  width: 100%;
+  transition: 1s;
+}
+.OpenMenu{
+  width: 250px!important;
+}
+.OpenMenu span{
+  animation: showtext .8s ease forwards;
+}
+@keyframes showtext{
+  0%{
+    opacity: 0;
+  }
+  83%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+  .LinkMedicale{
+    display: flex;
+    height: 40px;
+    color: white;
+    font-size: larger;
+  }
+.homeMedicale{
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  text-align: center;
+}

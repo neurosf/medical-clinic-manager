@@ -1,0 +1,64 @@
+.StatWS{
+  display: flex;
+  grid-gap: 2rem 0.2rem;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
+  .TopStat{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 12rem));
+    grid-gap: 2rem 0.2rem;
+    width: 100%;
+    justify-content: center;
+    background: #2a4e6e;
+    padding: 1%;
+    position: fixed;
+    z-index: 100;
+    top: 77px;
+    color: #fff;
+  }
+  .Statistiques{
+    background: white;
+    text-align: center;
+    min-height: 100vh;
+  }
+  .StatCountainer{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    width: 250px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .StatTitle{
+  color: #041d34;
+  font-size: 23px;
+  font-family: monospace;
+  }
+  .StatNum{
+  font-size: 52px;
+  color: #007aff;
+  }
+  .Stattext{
+  font-size: 17px;
+  font-family: system-ui;
+  color: #2b6cb3;
+  }
+  hr.lineStat{
+  content: "";
+  height: 5px;
+  width: 100%;
+  background: #7fa4c8;
+  border-radius: 8px;
+  opacity: .3;
+  }
+  .Selectcontainer{
+    display: flex;
+  }
+  .Graph div{
+    margin: auto;    
+  }
